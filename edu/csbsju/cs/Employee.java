@@ -34,9 +34,9 @@ public class Employee
      return getName() + ", " + getSalary() + ", " + getHireDay();
    }
 
-   public void raiseSalary(double byAbsoluteValue)
+   public void raiseSalary(double byPercentage)
    {
-      double raise = byAbsoluteValue;
+      double raise = salary*byPercentage;
       salary += raise;
    }
 
