@@ -29,6 +29,10 @@ public class Employee
    {
       return hireDay;
    }
+   
+   public String toString(){
+     return getName() + ", " + getSalary() + ", " + getHireDay();
+   }
 
    public void raiseSalary(double byPercent)
    {
